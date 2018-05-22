@@ -80,10 +80,11 @@ export const login = (data, options) => http.post('admin/login.do', data, option
 export const getAdminInfo = (options) => http.post('admin/getAdminInfo.do', options);
 
 // classify
-export const getAllClassify = (data,options) => http.post('classify/getAllClassify.do',data, options);
-export const getClassifyByPage = (data,options) => http.post('classify/admin/getClassifyByPage.do',data, options);
-export const updateClassify = (data,options) => http.post('classify/admin/updateClassify.do',data, options);
-export const addClassify = (data,options) => http.post('classify/admin/addClassify.do',data, options);
+export const getAllClassify = (data, options) => http.post('classify/getAllClassify.do', data, options);
+export const getClassifyByPage = (data, options) => http.post('classify/admin/getClassifyByPage.do', data, options);
+export const updateClassify = (data, options) => http.post('classify/admin/updateClassify.do', data, options);
+export const addClassify = (data, options) => http.post('classify/admin/addClassify.do', data, options);
+export const deleteClassify = (data, options) => http.post('classify/admin/deleteClassify.do', data, options);
 
 // good
 export const addGood = (data, options) => http.post('good/addGood.do', data, options);
